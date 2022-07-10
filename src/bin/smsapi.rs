@@ -27,6 +27,9 @@ fn main() {
         io::stdin().read_line(&mut line)
             .expect("reading from standard input");
 
+        //remove newline character
+        line.pop();
+
         line
     });
 
